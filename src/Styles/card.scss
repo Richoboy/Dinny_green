@@ -1,0 +1,50 @@
+.people {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    .people-cards {
+        //   background-color: aqua;
+        width: 100%;
+        max-width: 350px;
+        
+      
+        .item {
+          padding: 2.2rem 2.5rem;
+          // background-color: red;
+          background: #FFFFFF;
+      
+          .img {
+              padding-left: 1.2rem;
+          }
+      
+          .call {
+            display: flex;
+            color: $grey;
+            .l1 {
+              padding-left: -0.5rem;
+            }
+            .l2 {
+              padding-left: 3.5rem;
+            }
+          }
+          .child {
+            color: $primary-color;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 24px;
+            padding-left: 6rem;
+          }
+          .framer {
+            color: $grey;
+            text-align: center;
+          }
+        
+        }
+        button {
+          width: 350px;
+          height: 51px;
+          background-color: $primary-color;
+          color: white;
+        }
+      }
+}
